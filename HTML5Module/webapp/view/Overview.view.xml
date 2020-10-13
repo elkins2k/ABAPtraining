@@ -1,0 +1,32 @@
+<mvc:View
+    controllerName="ns.HTML5Module.controller.Overview"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc"    
+>
+    <Page title="{i18n>title}">
+        <content>
+            <List
+                noDataText="Drop list items here" 
+                id="__list0" 
+                items="{/materialDetails}" 
+                mode="SingleSelectMaster" 
+                modeAnimationOn="true" 
+                selectionChange="onSelect"
+            >
+			    <items>
+                    <ObjectListItem 
+                        title="{material}" 
+                        number="{price}" 
+                        intro="{desc}" 
+                        numberUnit="INR" 
+                        id="__item0" 
+                        numberState="{= ${price} &gt;= 500 ? 'Error' : 'Success' }"
+                    >
+                    </ObjectListItem>
+			    </items>
+            </List>	
+        </content>
+    </Page>
+</mvc:View>

@@ -1,0 +1,40 @@
+{
+    "materialDetails": [
+        {
+            "material": "MAT1",
+            "desc": "M00343040",
+            "icon": "sap-icon://picture",
+            "price": "1000"
+        },
+        {
+            "material": "MAT2",
+            "desc": "M00e0333",
+            "icon": "sap-icon://picture",
+            "price": "500"
+        },
+        {
+            "material": "MAT3",
+            "desc": "M00303354",
+            "icon": "sap-icon://picture",
+            "price": "300"
+        },
+        {
+            "material": "MAT5",
+            "desc": "M299888766",
+            "icon": "sap-icon://picture",
+            "price": "200"
+        },
+        {
+            "material": "MAT6",
+            "desc": "M00m56666",
+            "icon": "sap-icon://picture",
+            "price": "1200"
+        },
+        {
+            "material": "MAT7",
+            "desc": "M00m56666",
+            "icon": "sap-icon://picture",
+            "price": "900"
+        }
+    ]
+}
