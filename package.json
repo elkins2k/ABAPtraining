@@ -1,26 +1,26 @@
 {
-  "name": "demoproject_ui5",
-  "version": "0.0.1",
-  "devDependencies": {
-    "@sap/eslint-plugin-ui5-jsdocs": "2.0.x",
-    "@sap/ui5-builder-webide-extension": "^1.1.9",
-    "@sapui5/ts-types": "1.96.16",
-    "@ui5/cli": "^2.14.14",
-    "bestzip": "^2.2.1",
-    "eslint": "8.28.0",
-    "rimraf": "3.0.2"
-  },
-  "ui5": {
-    "dependencies": [
-      "@sap/ui5-builder-webide-extension"
-    ]
-  },
-  "dependencies": {
-    "grunt-legacy-util": "^2.0.1",
-    "grunt": "^1.5.3",
-    "@sap/di.code-validation.js": "^2.0.0",
-    "@sap/di.code-validation.xml":"^1.1.29",
-    "lodash": "^4.17.21",
-    "trim-newlines": "4.0.2"
-  }
+    "name": "demoproject_ui5",
+    "version": "0.0.1",
+    "devDependencies": {
+        "@sap/eslint-plugin-ui5-jsdocs": "^2.0.x",
+        "@sap/ui5-builder-webide-extension": "^1.1.9",
+        "@sapui5/ts-types": "^1.96.16",
+        "@ui5/cli": "^3.0.4",
+        "bestzip": "^2.2.1",
+        "eslint": "^8.28.0",
+        "rimraf": "^3.0.2"
+    },
+    "ui5": {
+        "dependencies": [
+            "@sap/ui5-builder-webide-extension"
+        ]
+    },
+    "dependencies": {
+        "@sap/di.code-validation.js": "^2.0.0",
+        "@sap/di.code-validation.xml": "^1.1.29",
+        "grunt": "^1.5.3",
+        "grunt-legacy-util": "^2.0.1",
+        "lodash": "^4.17.21",
+        "trim-newlines": "^4.0.2"
+    }
 }
